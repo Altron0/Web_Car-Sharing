@@ -5,6 +5,15 @@ $(function () {
         dots: true,
         autoplay: true,
         fade: true,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    dots: false,
+                }
+            }
+        ]
     })
 
     $('.reviews__slider').slick({
@@ -14,4 +23,8 @@ $(function () {
         slidesToScroll: 1,
         autoplay: true
     })
+
+    $('.menu__bth').on('click', function(){
+        $('.menu__list').toggleClass('menu__list-active');
+    });
 });

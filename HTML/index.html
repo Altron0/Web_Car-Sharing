@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"    >
     <title>Car sharing</title>
     <link rel="stylesheet" href="/CSS/reset.css">
     <link rel="stylesheet" href="/CSS/slick.css">
@@ -17,7 +18,8 @@
                     <img class="logo__link" src="/HTML/Photo/logo.png" alt="logo">
                 </a>
                 <nav class="menu">
-                    <ul class="menu__list">
+                    <button class="menu__bth"></button>
+                    <ul class="menu__list ">
                         <li class="menu__item"><a class="menu__list-link" href="#">О НАС</a></li>
                         <li class="menu__item"><a class="menu__list-link" href="#">АВТОПАРК</a></li>
                         <li class="menu__item"><a class="menu__list-link" href="#">ОТЗЫВЫ</a></li>
@@ -136,7 +138,7 @@
             </div>
         </div>
     </section>
-    <section class="benefits">
+    <!-- <section class="benefits">
         <div class="container">
             <h3 class="benefits__title">Преимущества</h3>
             <div class="benefits__items">
@@ -215,7 +217,7 @@
                     </p>
                     <p class="reviews__item-text">
                         Ребята, Вы ТОПЧИК!
-                        Брал машину на свидание, покатал девушку, она в восторге, я доволен, все счастливы)
+                        Брал машину на свидание, покатал девушку, она в восторге, я доволен, все счастливы)))
                     </p>
                 </div>
                 <div class="reviews__item">
@@ -231,10 +233,51 @@
             </div>
         </div>
     </section>
+    <section class="feadback">
+        <div class="container">
+            <div class="feadback__inner">
+                <img src="/HTML/Photo/feadback-image.png" alt="car" class="feadback__images">
+                <form class="feadback__form">
+                    <h3 class="feadback__title">Остались вопросы?</h3>
+                    <p class="feadback__text">Мы перезвоним Вам и проконсультируем по любому вопросу</p>
+                    <input type="text" class="feadback__input" placeholder="Имя">
+                    <input type="tel" class="feadback__input" placeholder="Телефон">
+                    <button class="feadback__bth" type="submit" class="">ОСТАВИТЬ ЗАЯВКУ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a class="application__bth" href="#">Скачать приложение</a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__list-link" href="#">О НАС</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="#">АВТОПАРК</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="#">ОТЗЫВЫ</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="#">УСЛОВИЯ</a></li>
+                        <li class="menu__item"><a class="menu__list-link" href="#">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+                <a href="tel:+380999999090" class="phone">+38 (099) 999 90 90</a>
+            </div>
+            <ul class="footer__social">
+                <li class="footer__social-item"><a class="footer__social-link" href="#">
+                    <img class="footer__social-img" src="/HTML/Photo/facebook.svg" alt="contact">
+                </a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href="#">
+                    <img class="footer__social-img" src="/HTML/Photo/instagram.svg" alt="contact">
+                </a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href="#">
+                    <img class="footer__social-img" src="/HTML/Photo/youtube.svg" alt="contact">
+                </a></li>
+            </ul>
+        </div>
+    </footer> -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src=/JS/slick.min.js"></script>
     <script src="/JS/jquery.fancybox.min.js"></script>
     <script src="/JS/main.js"></script>
 </body>
